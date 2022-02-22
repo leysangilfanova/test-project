@@ -1,0 +1,131 @@
+﻿html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Gilroy-Bold";
+    font-size: 18px;
+    margin: 0;
+}
+
+.container {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+#menu {
+    padding: 30px 0;
+    border-bottom: 1px solid #828282;
+    display: flex;
+    justify-content: space-between;
+}
+
+#menu a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #1a401f;
+}
+
+#shrek {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+#name {
+    margin-bottom: 0;
+    color: #4d543c;
+}
+
+#info {
+    text-align: center;
+}
+
+#language {
+    transform: rotate(-90deg);
+    transform-origin: right bottom;
+    margin-bottom: 80px;
+}
+
+#main-photo {
+    display: block;
+    margin-top: 0px;
+    margin-bottom: 80px;
+    position: absolute;
+    width: 743.61px;
+    height: 387px;
+    left: 880.69px;
+    top: 276.94px;
+}
+
+#about-me {
+    display: block;
+    margin-top: 500px;
+    margin-bottom: 80px;
+    top: 676.94px;
+    background: #d9d9d9;
+    width: 100%;
+}
+
+  .title {
+        text-align: center;
+    }
+
+.bio {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 80px;
+    padding: 30px 0;
+    color: #070707;
+}
+
+#skills {
+    margin-top: 70px;
+    margin-bottom: 80px;
+}
+
+    #skills img {
+        width: 240px;
+        height: 270px;
+    }
+
+.programs {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+#portfolio {
+    display: block;
+    background: #d9d9d9;
+    margin-top: 90px;
+    margin-bottom: 80px;
+    width: 100%;
+    
+}
+
+    #portfolio .title {
+        text-decoration-line: underline;
+    }
+
+    #portfolio img {
+        width: 1000px;
+        height: 576px;
+    }
+
+#send {
+    border-radius: 20px;
+    background-color: #000000;
+    line-height: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: #FFFFFF;
+}
+
+#contacts {
+    text-align: center;
+}
