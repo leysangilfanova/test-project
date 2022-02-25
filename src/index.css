@@ -1,4 +1,4 @@
-﻿html {
+html {
     scroll-behavior: smooth;
 }
 
@@ -32,6 +32,12 @@ body {
     align-items: flex-end;
 }
 
+#main-photo{
+    display: block;
+    margin-top: 30px;
+    width: 1000px;
+}
+
 #name {
     margin-bottom: 0;
     color: #4d543c;
@@ -47,20 +53,9 @@ body {
     margin-bottom: 80px;
 }
 
-#main-photo {
-    display: block;
-    margin-top: 0px;
-    margin-bottom: 80px;
-    position: absolute;
-    width: 743.61px;
-    height: 387px;
-    left: 880.69px;
-    top: 276.94px;
-}
-
 #about-me {
     display: block;
-    margin-top: 500px;
+    margin-top: 100px;
     margin-bottom: 80px;
     top: 676.94px;
     background: #d9d9d9;
