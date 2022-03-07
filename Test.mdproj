@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ItemType>GenericProject</ItemType>
+    <ProjectGuid>{3E1146AD-30B7-4CB0-9A3F-F562C7F862EE}</ProjectGuid>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Default|AnyCPU' ">
+    <OutputPath>.\</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <Folder Include="src\" />
+    <Folder Include="src\asserts\" />
+    <Folder Include="src\asserts\images\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="src\index.html" />
+    <None Include="src\index.css" />
+    <None Include="src\asserts\images\photoshop.png" />
+    <None Include="src\asserts\images\linkedin.png" />
+    <None Include="src\asserts\images\instagram.png" />
+    <None Include="src\asserts\images\behance.png" />
+    <None Include="src\asserts\images\shrek.jpeg" />
+    <None Include="src\asserts\images\swamp.jpeg" />
+    <None Include="src\asserts\images\family.jpeg" />
+    <None Include="src\asserts\images\friends.jpeg" />
+    <None Include="src\asserts\images\farting.gif" />
+    <None Include="src\asserts\images\scaring.gif" />
+    <None Include="src\asserts\images\charming.gif" />
+    <None Include="src\asserts\images\fighting.gif" />
+  </ItemGroup>
+</Project>
